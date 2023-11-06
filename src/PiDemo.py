@@ -59,7 +59,7 @@ def main():
     lcd.backlight(1)  # turn backlight on
 
     lcd.lcd_clear()
-    lcd.lcd_display_string("DevOps for AIoT", 1)  # write on line 1
+    lcd.lcd_display_string("DevOps for AIoT ET0735", 1)  # write on line 1
     lcd.lcd_display_string("Rel = " + ver.rel_ver, 2)  # write on line 2
     # starting on 3rd column
 
