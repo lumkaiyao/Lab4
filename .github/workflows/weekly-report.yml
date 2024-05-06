@@ -1,11 +1,11 @@
 name: Weekly Report
 on:
   schedule:
-    - cron: '0 6 * * * 0' # At 06:00 on Sunday
+    - cron: 0 15 * * *
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: wow-actions/activity-report@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.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 }}
